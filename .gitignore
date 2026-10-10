@@ -1,0 +1,24 @@
+# ==================== 编译工具链（576 MB，不上传） ====================
+tools/w64devkit/
+tools/PortableGit/
+tools/PortableGit.7z.exe
+
+# ==================== 构建中间产物 ====================
+build/
+
+# ==================== 运行时配置与日志（与本机相关） ====================
+*.ini
+*.log
+
+# ==================== 本机环境相关（不宜公开/无需上传） ====================
+tools/kaspersky-ca.pem
+tools/ca-bundle-*.crt
+tools/download_git.py
+tools/chain_probe.py
+
+# ==================== 编辑器 / 系统文件 ====================
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.tmp
